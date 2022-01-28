@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+}
+
+.upper{
+    height: 10rem;
+    width: 100vw;
+    background-image: linear-gradient(to right,rgb(81, 172, 214),rgb(250, 142, 160));
+}
+
+.upper p{
+    color: white;
+    position: absolute;
+    top: 2rem;
+    left: calc(50vw - 15.5rem);
+    width: 31rem;
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 1.5rem;
+}
+.upper input{
+    position: absolute;
+    top: 6rem;
+    left: 6vw;
+    width: 8rem;
+}
+
+#start{
+    position: absolute;
+    top: 6rem;
+    right: 10vw;
+    background-color: rgb(255, 255, 255);
+    height: 1.2rem;
+    width: 6rem;
+    text-align: center;
+    border-radius: 0.6rem;
+    cursor: pointer;
+}
+
+#start:hover{
+    box-shadow: 0px 0px 20px 5px white;
+    transform: translate(0px,-1px);
+    background-color: rgb(238, 228, 228);
+}
+
+
+.bottom{
+    background-color: rgb(51, 45, 45);
+    height: 7rem;
+    width: 100vw;
+}
+.replace{
+    position: relative;
+    height: 3rem;
+    width: 3rem;
+    overflow: hidden;
+    /* border: 2px solid rgb(209, 238, 220); */
+    top: 2rem;
+    left: calc(50vw - 1.5rem);
+}
+
+#upper-number,#lower-number{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 3rem;
+    width: 3rem;
+    background-color: white;
+    border-top: 3px solid black;
+    text-align: center;
+    padding-top: 0.8rem;
+
+
+}
+#lower-number{
+    top: 3rem;
+    left: 0;
+}
+
+.animate{
+    transition: all 0.5s;
+    transform: translateY(-3rem);
+}
